@@ -1,0 +1,15 @@
+create table if not exists meaningless_information_line_items(
+line_item_code Integer not null,
+meaningless_information_ref varchar(255) null,
+information_valid char null,
+content_code Integer null,
+content varchar(255) null,
+metadata varchar(255) null,
+key_identifier Integer null,
+secret_code Integer null,
+key_rotation_client varchar(255) null,
+line_item_reference Integer null,
+key_rotation_schedule varchar(255) null,
+status varchar(255) null,
+remarks varchar(255) null,
+constraint meaningless_information_line_items_pk primary key(line_item_code));
